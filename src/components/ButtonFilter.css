@@ -1,0 +1,12 @@
+.label {
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+.label:hover {
+    background-color: #4D5562;
+}
+
+.labelSelected {
+    background-color: #4D5562;
+}

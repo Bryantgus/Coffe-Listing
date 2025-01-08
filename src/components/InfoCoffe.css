@@ -1,0 +1,79 @@
+.ItemcoffeContainer {
+    width: 250px;
+    height: auto;
+}
+.imgCoffe {
+    width: auto;
+    height: 150px;
+    background-size: cover; /* Ajusta la imagen para llenar el contenedor */
+    background-position: center; /* Centra la imagen */
+    border-radius: 10px; /* Opcional, bordes redondeados */
+    overflow: hidden; /* Para mantener bordes redondeados */
+}
+
+.imgCoffe > span {
+    font-size: 12px;
+    background-color: #F6C768;
+    color: #1B1D1F;
+    font-weight: 1000;
+    padding: 3px 14px;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.namePrice {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.namePrice > span:first-child {
+    color: #FEF7EE;
+    font-size: 16px;
+}
+
+.namePrice > span:last-child {
+    background-color: #BEE3CC;
+    font-size: 12px;
+    font-weight: 1000;
+    color: #1B1D1F;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+.rateVotes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.rateVotes  > div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.rateVotes > div:nth-child(1) > span:nth-child(2) {
+    color: #FEF7EE;
+    font-size: 14px;
+    font-weight: 1000;
+}
+
+.rateVotes > div:nth-child(1) > span:nth-child(3) {
+    color: #4D5562;
+    font-size: 14px;
+    font-weight: 1000;
+    margin-left: 5px;
+}
+
+.rateVotes > div:last-child {
+    color: #ED735D;
+}
