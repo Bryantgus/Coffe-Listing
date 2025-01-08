@@ -41,5 +41,6 @@ InfoCoffe.propTypes = {
     votes: PropTypes.number,
     rate: PropTypes.number,
     price: PropTypes.string,
-    isAvailable: PropTypes.bool
+    isAvailable: PropTypes.bool,
+    id: PropTypes.number
 }
